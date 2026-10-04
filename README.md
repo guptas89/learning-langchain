@@ -35,7 +35,7 @@ cp -n .env.example .env
 
 If `.env` does not already exist, the command above creates it from the template. Open `.env` and replace `your_gemini_api_key_here` with your Gemini API key. You can create a key in [Google AI Studio](https://aistudio.google.com/app/apikey). Keep `.env` private; it is excluded from Git.
 
-Run an example from the project root with the virtual environment activated:
+Run a example from the project root with the virtual environment activated:
 
 ```bash
 python 01-llm-and-messages/basic_llm.py
